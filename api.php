@@ -37,7 +37,7 @@ $mtime = microtime();
 		break;
 		
 		case 'getranking':
-		echo  googleScraper::scrape('Google search', array('http://www.google.com'));
+		echo  googleScraper::scrape(@$_GET['keyword'], array(@$_GET['url']));
 		break;
 		
 	}

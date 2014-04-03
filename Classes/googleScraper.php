@@ -56,7 +56,7 @@ class googleScraper {
                 }
             }
         }
-        return false;
+        return 0;
     }
 
 }
