@@ -10,7 +10,7 @@ Contact @ Skype : noc2spam
 
 
 class googleScraper {
-	//TO DO: Add more keywords
+	// add google domains for all country
     public static $domains = array('en' => 'google.com');
 
     static function scrape($keyword, $urlToSearch, $country = 'en', $resultsToFetch = 100) {
